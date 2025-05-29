@@ -1,0 +1,38 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+GitPython>=3.1.44
+
+# LangChain
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-text-splitters>=0.0.1
+
+# Google ADK
+google-adk>=1.0.0
+
+# Vector Store
+chromadb>=0.4.22
+
+# Embeddings
+# Using Gemini embeddings via Google Cloud
+
+# Google Cloud
+google-cloud-aiplatform>=1.36.0
+google-generativeai>=0.3.0
+
+# Web Framework
+fastapi>=0.104.1
+uvicorn>=0.24.0
+
+# Utilities
+pydantic>=2.4.2
+tqdm>=4.66.1
+loguru>=0.7.2
+html2text>=2025.4.15
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
